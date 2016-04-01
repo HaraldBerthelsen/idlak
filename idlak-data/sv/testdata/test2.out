@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<parent>
+	<utt uttid="1" no_phrases="1">
+		<spt phraseid="1" no_wrds="9">
+			<break type="4" time="0.011" />
+			<tk norm="det" lc="true" uc="true" pos="NN" posset="1" wordid="1" pron="d e0 t" lts="true" spron="d+e0+t|" nosyl="1">
+				Det
+				<ws> </ws>
+				<syl val="d+e0+t" stress="0" sylid="1" nophons="3">
+					<phon val="d" type="onset" phonid="1" />
+					<phon val="e" type="nucleus" phonid="2" />
+					<phon val="t" type="coda" phonid="3" />
+				</syl>
+			</tk>
+			<tk norm="här" lc="true" pos="NN" posset="1" wordid="2" pron="h aae1 r" spron="h+aae1+r|" nosyl="1">
+				här
+				<ws> </ws>
+				<syl val="h+aae1+r" stress="1" sylid="1" nophons="3">
+					<phon val="h" type="onset" phonid="1" />
+					<phon val="aae" type="nucleus" phonid="2" />
+					<phon val="r" type="coda" phonid="3" />
+				</syl>
+			</tk>
+			<tk norm="är" lc="true" pos="NN" posset="1" wordid="3" pron="aae1 r" spron="aae1+r|" nosyl="1">
+				är
+				<ws> </ws>
+				<syl val="aae1+r" stress="1" sylid="1" nophons="2">
+					<phon val="aae" type="nucleus" phonid="1" />
+					<phon val="r" type="coda" phonid="2" />
+				</syl>
+			</tk>
+			<tk norm="ett" lc="true" pos="NN" posset="1" wordid="4" pron="ae1 t" spron="ae1+t|" nosyl="1">
+				ett
+				<ws> </ws>
+				<syl val="ae1+t" stress="1" sylid="1" nophons="2">
+					<phon val="ae" type="nucleus" phonid="1" />
+					<phon val="t" type="coda" phonid="2" />
+				</syl>
+			</tk>
+			<tk norm="test" lc="true" pos="NN" posset="1" wordid="5" pron="t ae1 s t" spron="t+ae1+s_t|" nosyl="1">
+				test
+				<ws> </ws>
+				<syl val="t+ae1+s_t" stress="1" sylid="1" nophons="4">
+					<phon val="t" type="onset" phonid="1" />
+					<phon val="ae" type="nucleus" phonid="2" />
+					<phon val="s" type="coda" phonid="3" />
+					<phon val="t" type="coda" phonid="4" />
+				</syl>
+			</tk>
+			<tk norm="av" lc="true" pos="NN" posset="1" wordid="6" pron="aa2 v" lts="true" spron="aa2+v|" nosyl="1">
+				av
+				<ws> </ws>
+				<syl val="aa2+v" stress="2" sylid="1" nophons="2">
+					<phon val="aa" type="nucleus" phonid="1" />
+					<phon val="v" type="coda" phonid="2" />
+				</syl>
+			</tk>
+			<tk norm="fonetiseraren" lc="true" pos="NN" posset="1" wordid="7" pron="f uu2 n ee0 t ii2 s ee0 r aa2 r ee2 n" lts="true" spron="f+uu2|n+ee0|t+ii2|s+ee0|r+aa2|r+ee2+n|" nosyl="6">
+				fonetiseraren
+				<ws> </ws>
+				<syl val="f+uu2" stress="2" sylid="1" nophons="2">
+					<phon val="f" type="onset" phonid="1" />
+					<phon val="uu" type="nucleus" phonid="2" />
+				</syl>
+				<syl val="n+ee0" stress="0" sylid="2" nophons="2">
+					<phon val="n" type="onset" phonid="1" />
+					<phon val="ee" type="nucleus" phonid="2" />
+				</syl>
+				<syl val="t+ii2" stress="2" sylid="3" nophons="2">
+					<phon val="t" type="onset" phonid="1" />
+					<phon val="ii" type="nucleus" phonid="2" />
+				</syl>
+				<syl val="s+ee0" stress="0" sylid="4" nophons="2">
+					<phon val="s" type="onset" phonid="1" />
+					<phon val="ee" type="nucleus" phonid="2" />
+				</syl>
+				<syl val="r+aa2" stress="2" sylid="5" nophons="2">
+					<phon val="r" type="onset" phonid="1" />
+					<phon val="aa" type="nucleus" phonid="2" />
+				</syl>
+				<syl val="r+ee2+n" stress="2" sylid="6" nophons="3">
+					<phon val="r" type="onset" phonid="1" />
+					<phon val="ee" type="nucleus" phonid="2" />
+					<phon val="n" type="coda" phonid="3" />
+				</syl>
+			</tk>
+			<tk norm="i" lc="true" pos="NP" posset="1" wordid="8" pron="i2" lts="true" spron="i2|" nosyl="1">
+				i
+				<ws> </ws>
+				<syl val="i2" stress="2" sylid="1" nophons="1">
+					<phon val="i" type="nucleus" phonid="1" />
+				</syl>
+			</tk>
+			<tk norm="idlak" pstpunc="." lc="true" uc="true" pos="NN" posset="1" wordid="9" pron="i2 d l a0 k" lts="true" spron="i2_d|l+a0+k|" nosyl="2">
+				Idlak.
+				<syl val="i2_d" stress="2" sylid="1" nophons="2">
+					<phon val="i" type="nucleus" phonid="1" />
+					<phon val="d" type="nucleus" phonid="2" />
+				</syl>
+				<syl val="l+a0+k" stress="0" sylid="2" nophons="3">
+					<phon val="l" type="onset" phonid="1" />
+					<phon val="a" type="nucleus" phonid="2" />
+					<phon val="k" type="coda" phonid="3" />
+				</syl>
+			</tk>
+			<break type="4" time="0.4" />
+		</spt>
+	</utt>
+</parent>

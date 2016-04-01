@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<syl>
+<!--
+#pname ex-wrd ex-pro
+*/p/ pappa p_a_p_a
+*/b/ bada b_aa_d_a
+*/t/ tå t_oo
+*/d/ dö d_oox
+*/k/ ko k_uu
+*/g/ gå g_oo
+*/f/ föra f_ooe_r_a
+*/v/ värde v_ae_rd_eh
+*/s/ sko s_k_uu
+*/x/ sjunga x_ux_ng_a
+*/h/ hej h_e_j
+*/c/ kyssa c_y_s_a
+*/m/ mun m_ux_n
+*/n/ nyss n_y_s
+/ng/ tung t_ux_ng
+*/r/ ros r_uu_s
+*/l/ led l_ee_d
+*/j/ ja j_aa
+
+*/ii/ fina f_ii_n_a
+*ee/ fena f_ee_n_a
+*/yy/ tryne t_r_yy_n_eh
+*/uux/ sune s_uux_n_eh
+*/oox/ föna f_oox_n_a
+*/uu/ bona b_uu_n_a
+*/oo/ fåna f_oo_n_a
+*/aa/ fana f_aa_n_a
+*/i/ finna f_i_n_a
+*/e/ penna p_e_n_a
+*/y/ lynne l_y_n_eh
+*/ux/ tunna t_ux_n_a
+*/ox/ tömma t_ox_m_a
+*/u/ tomma t_u_m_a
+*/o/ komma k_o_m_a
+*/a/ fann f_a_n
+*/aae/ värna v_aae_rn_a
+*/ooe/ förd f_ooe_rd
+*/ae/ hjärta j_ae_rt_a
+*/oe/ mörk m_oe_r_k
+/eh/ handen h_a_n_d_eh_n
+*/rd/ hörda h_oox_rd_a
+*/rs/ korsa k_oo_rs_a
+*/rn/ hjärna j_ae_rn_a
+*/rt/ portad p_u_rt_a_d
+*/rl/ farlig f_aa_rl_i_g
+/rr/ kurd k_uux_rr_d
+# Rare phonemes
+/eu/ europa eu_r_uu_p_a
+#not certain about
+/au/ aula au_l_a
+ -->
+	<syllabic>
+		<s name="a"/>
+		<s name="aa"/>
+
+		<s name="e"/>
+		<s name="ee"/>
+
+		<s name="i"/>
+		<s name="ii"/>
+
+		<s name="o"/>
+		<s name="oo"/>
+
+		<s name="u"/>
+		<s name="uu"/>
+
+		<s name="ux"/>
+		<s name="uux"/>
+
+		<s name="y"/>
+		<s name="yy"/>
+
+		<s name="ae"/>
+		<s name="aae"/>
+
+		<s name="ox"/>
+		<s name="oox"/>
+
+		<s name="oe"/>
+		<s name="ooe"/>
+
+		<s name="eh"/>
+		<s name="eu"/>
+		<s name="eu"/>
+
+	</syllabic>
+	<onsets>
+		<o pat="b"/>
+		<o pat="c"/>
+		<o pat="d"/>
+		<o pat="f"/>
+		<o pat="g"/>
+		<o pat="h"/>
+		<o pat="j"/>
+		<o pat="k"/>
+		<o pat="l"/>
+		<o pat="m"/>
+		<o pat="n"/>
+		<o pat="p"/>
+		<o pat="r"/>
+		<o pat="s"/>
+		<o pat="t"/>
+		<o pat="v"/>
+		<o pat="x"/>
+		<o pat="rd"/>
+		<o pat="rl"/>
+		<o pat="rn"/>
+		<o pat="rs"/>
+		<o pat="rt"/>
+
+		<o pat="s l"/>
+		<o pat="s v"/>
+		<o pat="s p"/>
+		<o pat="s t"/>
+		<o pat="s k"/>
+		<o pat="s m"/>
+		<o pat="s n"/>
+		<o pat="s r"/>
+		<o pat="p r"/>
+		<o pat="p l"/>
+		<o pat="b r"/>
+		<o pat="b l"/>
+		<o pat="t r"/>
+		<o pat="t v"/>
+		<o pat="d r"/>
+		<o pat="k r"/>
+		<o pat="k v"/>
+		<o pat="k l"/>
+		<o pat="g r"/>
+		<o pat="g l"/>
+		<o pat="f r"/>
+		<o pat="f l"/>
+		<o pat="v r"/>
+
+		<o pat="s p r"/>
+		<o pat="s p l"/>
+		<o pat="s p j"/>
+		<o pat="s t r"/>
+		<o pat="s k r"/>
+		<o pat="s k v"/>
+	</onsets>
+	<nuclei stress="false">
+		<n pat="a"/>
+		<n pat="aa"/>
+
+		<n pat="e"/>
+		<n pat="ee"/>
+
+		<n pat="i"/>
+		<n pat="ii"/>
+
+		<n pat="o"/>
+		<n pat="oo"/>
+
+		<n pat="u"/>
+		<n pat="uu"/>
+
+		<n pat="ux"/>
+		<n pat="uux"/>
+
+		<n pat="y"/>
+		<n pat="yy"/>
+
+		<n pat="ae"/>
+		<n pat="aae"/>
+
+		<n pat="ox"/>
+		<n pat="oox"/>
+
+		<n pat="oe"/>
+		<n pat="ooe"/>
+
+		<n pat="eh"/>
+		<n pat="eu"/>
+		<n pat="eu"/>
+	</nuclei>
+</syl>
