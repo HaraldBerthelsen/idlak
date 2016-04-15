@@ -39,7 +39,7 @@ TMPDIR=./tmp
 #rm -rf data/train data/eval data/dev data/train_* data/eval_* data/dev_* data/full
 
 # Speaker ID
-spks="bdl" # can be any of slt, bdl, jmk
+spks="slt" # can be any of slt, bdl, jmk
 
 
 #HB added variables to skip steps that have worked
@@ -91,10 +91,11 @@ for spk in $spks; do
     # Download data
     if [ ! -e $audio_dir ]; then
 	    mkdir -p rawaudio
-	    cd rawaudio
-	    wget $url
-	    tar xjf $arch
-	    cd ..
+	    #HB skipping download because I have the audio already..
+	    #cd rawaudio
+	    #wget $url
+	    #tar xjf $arch
+	    #cd ..
         mkdir -p $audio_dir
         for i in rawaudio/cmu_us_${spk}_arctic/orig/*.wav; do
             # sox $i -r 48k $audio_dir/`basename $i` remix 1 upsample 2

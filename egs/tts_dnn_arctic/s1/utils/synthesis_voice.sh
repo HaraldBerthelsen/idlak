@@ -107,4 +107,7 @@ mkdir -p $outdir/wav_mlpg/; for cmp in $outdir/cmp/*.cmp; do
     utils/mlsa_synthesis_63_mlpg.sh --voice_thresh $voice_thresh --alpha $alpha --fftlen $fftlen --srate $srate --bndap_order $bndap_order --mcep_order $mcep_order --delta_order $delta_order $cmp $outdir/wav_mlpg/`basename $cmp .cmp`.wav $var_cmp
 done
 
+#HB to get durations
+cp $datadir/synth_lab.mlf $outdir/wav_mlpg/
+
 echo "Done. Samples are in $outdir/wav_mlpg/"

@@ -1,5 +1,5 @@
 # This file was generated using the following command:
-# ./configure --static --use-cuda=yes --static-fst=yes
+# ./configure --use-cuda=yes
 
 # Rules that enable valgrind debugging ("make valgrind")
 
@@ -15,17 +15,18 @@ valgrind: .valgrind
 
 
 CONFIGURE_VERSION := 2
-FSTROOT = /home/potard/aria/idlak/tools/openfst
-OPENFST_VER = 1.3.4
-OPENFST_GE_10400 = 0
-OPENFSTLIBS = /home/potard/aria/idlak/tools/openfst/lib/libfst.a
-OPENFSTLDFLAGS =
+FSTROOT = /media/bigdisk/git_repos/idlak/tools/openfst
+OPENFST_VER = 1.4.1
+OPENFST_GE_10400 = 1
+EXTRA_CXXFLAGS += -DHAVE_OPENFST_GE_10400 -std=c++0x
+OPENFSTLIBS = -L/media/bigdisk/git_repos/idlak/tools/openfst/lib -lfst
+OPENFSTLDFLAGS = -Wl,-rpath=/media/bigdisk/git_repos/idlak/tools/openfst/lib
 IDLAK = true
-PCREROOT = /home/potard/aria/idlak/tools/pcre-8.20
-EXPATROOT = /home/potard/aria/idlak/tools/expat-2.1.0
-PUJIXMLROOT = /home/potard/aria/idlak/tools/pugixml-1.2
-ATLASINC = /home/potard/aria/idlak/tools/ATLAS/include
-ATLASLIBS = /usr/lib64/atlas/libsatlas.so
+PCREROOT = /media/bigdisk/git_repos/idlak/tools/pcre-8.20
+EXPATROOT = /media/bigdisk/git_repos/idlak/tools/expat-2.1.0
+PUJIXMLROOT = /media/bigdisk/git_repos/idlak/tools/pugixml-1.2
+ATLASINC = /media/bigdisk/git_repos/idlak/tools/ATLAS/include
+ATLASLIBS = /usr/lib/libatlas.so.3 /usr/lib/libf77blas.so.3 /usr/lib/libcblas.so.3 /usr/lib/liblapack_atlas.so.3
 # You have to make sure ATLASLIBS is set...
 
 ifndef FSTROOT
